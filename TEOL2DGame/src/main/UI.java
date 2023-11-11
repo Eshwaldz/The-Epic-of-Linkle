@@ -172,6 +172,10 @@ public class UI {
 			}
 			i++;
 			x += iconSize;
+			if(i % 16 == 0) {
+				x = gp.tileSize/2;
+				y += iconSize;
+			}
 			
 		}
 		
